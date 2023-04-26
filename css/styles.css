@@ -625,6 +625,8 @@ body {
   left: 635px;
   top: 584px;
   margin: 0 auto;
+  cursor: pointer;
+  border-color: var(--color-iris);
   background-color: var(--color-iris);
   font-weight: 500;
   font-size: 16px;
