@@ -436,6 +436,7 @@ body {
 }
 
 .modal-form-footer {
+  display: flex;
   width: 453px;
   height: 80px;
 }
@@ -446,6 +447,8 @@ body {
   height: 40px;
   border: 1px solid var(--color-white);
   border-radius: 4px;
+  margin-right: 24px;
+  background-color: transparent;
 }
 
 .modal-form-input-footer::placeholder {
@@ -457,7 +460,7 @@ body {
   height: 24px;
   display: flex;
   align-items: center;
-  background-color: transparent;
+  color: var(--color-white);
 }
 
 .modal-form-submit-footer {
@@ -474,6 +477,7 @@ body {
   padding-bottom: 8px;
   padding-right: 0;
   padding-left: 24px;
+  border-radius: 4px;
   background-color: var(--color-iris);
   color: var(--color-white);
 }
