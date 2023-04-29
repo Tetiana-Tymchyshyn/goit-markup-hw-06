@@ -380,6 +380,10 @@ body {
   color: var(--color-iris);
 }
 
+.page-footer-logo {
+margin-right: 120px;
+}
+
 .footer-text {
   max-width: 264px;
   font-size: 16px;
@@ -396,7 +400,10 @@ body {
 .page-footer {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+
+.page-social-offers {
+margin-right: 80px;
 }
 
 .footer-social-text {
@@ -427,7 +434,7 @@ body {
   background-color: var(--color-green);
 }
 
-.modal-form-footer-container {
+.modal-form-footer-container{
   position: relative;
 }
 .modal-footer-text {
@@ -482,6 +489,7 @@ body {
   padding-right: 0;
   padding-left: 24px;
   margin-left: 24px;
+  border: none;
   border-radius: 4px;
   background-color: var(--color-iris);
   color: var(--color-white);
@@ -577,7 +585,7 @@ body {
 }
 
 .modal-form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-form-input-desc {
@@ -587,6 +595,10 @@ body {
   letter-spacing: 0.04em;
   margin-bottom: 4px;
   color: var(--color-light-slate);
+}
+
+.modal-form-comment {
+  margin-bottom: 16px;
 }
 .modal-form-input-desc.size {
   display: block;
