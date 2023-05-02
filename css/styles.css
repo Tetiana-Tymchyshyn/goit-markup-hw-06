@@ -434,9 +434,7 @@ margin-right: 80px;
   background-color: var(--color-green);
 }
 
-.modal-form-footer-container{
-  position: relative;
-}
+
 .modal-footer-text {
   font-weight: 500;
   font-size: 16px;
@@ -447,10 +445,9 @@ margin-right: 80px;
 }
 
 .modal-form-footer {
-  position: absolute;
   display: flex;
   width: 453px;
-  height: 80px;
+ 
 }
 
 .modal-form-input-footer {
